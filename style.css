@@ -1,4 +1,4 @@
-.cabecalho{background-color: grey;
+.cabecalho {background-color: gray;
 padding: 20px;}
 
 .caixa{position: relative;
@@ -6,21 +6,70 @@ width: 940px;
 margin: 0 auto;}
 
 
-nav{position: absolute;
+
+nav {position: absolute;
 top: 110px;
 right: 0;}
 
-nav li{display: inline;
-margin: 0 0 0 15px;}
+
+nav li {display: inline;
+margin: 0 0 15px;}
+
 
 nav a {text-transform: uppercase;
 color: black;
 font-weight: bold;
 font-size: 22px;
-text-decoration: none ;}
+text-decoration: none;}
 
-.produtos li {display: inline-block;}
-text-aling: center ;
- width: 30%;
-vertical-aling: top;}
+nav a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
 
+
+
+
+.produtos {width: 940px;
+margin: 0 auto;
+padding: 50px 0;}
+
+.produtos li {display: inline-block;
+          text-align: center;
+          width: 25%;
+          vertical-align: top;
+          margin: 0 1.5%;
+          padding: 30px 20px;
+          box-sizing: border-box;
+          border: 2px solid black;
+          border-radius:10px;
+    }
+
+.produtos li:hover { border-color: red;}
+
+.produtos li:active{ border-color: orangered;}
+
+.produtos li:hover h2{
+    font-size: 40px;
+}
+
+
+
+.descricao { font-size: 18px;
+    }
+
+    .preco {font-size: 22px;
+    font-weight: bold;
+     margin-top:10px;}
+
+     .preco{font-size:22px;
+    font-weight:bold;
+margin-top:10px;}
+
+footer{text-align:center;
+background-color: gray;}
+
+.rodape{ color: white;
+}
+
+.foto {width: 40%;}
